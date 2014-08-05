@@ -1,0 +1,21 @@
+{
+  "modListVersion": 2,
+  "modList": [{
+    "modid": "MinecraftStargate",
+    "name": "Minecraft Stargate",
+    "description": "No description for the moment :'(",
+    "version": "1.0",
+    "mcversion": "1.7.10",
+    "url": "http://www.devsev.noip.me/",
+    "updateUrl": "",
+    "authorList": [ "sevraye" ],
+    "credits": "Created by sevraye",
+    "logoFile": "",
+    "screenshots": [],
+    "parent": "",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "useDependencyInformation": true
+  }]
+}
