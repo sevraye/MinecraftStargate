@@ -1,5 +1,6 @@
 package com.sevraye.minecraftstargate;
 
+import com.sevraye.minecraftstargate.client.handler.KeyInputEventHandler;
 import com.sevraye.minecraftstargate.handler.ConfigurationHandler;
 import com.sevraye.minecraftstargate.init.ModBlocks;
 import com.sevraye.minecraftstargate.init.ModItems;
@@ -28,16 +29,19 @@ public class MinecraftStargate
     {
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
-        LogHelper.info("Pre Initialization Complete !");
+        proxy.registerKeyBinding();
 
         ModItems.init();
 
         ModBlocks.init();
+
+        LogHelper.info("Pre Initialization Complete !");
     }
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event)
     {
+        FMLCommonHandler.instance().bus().register(new KeyInputEventHandler());
         Recipes.init();
         LogHelper.info("Initialization Complete !");
     }

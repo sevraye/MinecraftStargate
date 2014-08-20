@@ -13,6 +13,7 @@ public class ModItems
     public static final ItemMCSG stargatePegasusChevron = new ItemPegasusChevron();
     public static final ItemMCSG stargateUniverseChevron = new ItemUniverseChevron();
     public static final ItemMCSG naquadahIngot = new ItemNaquadahIngot();
+    public static final ItemMCSG weaponZatNikTel = new ItemZatNikTel();
 
     public static void init()
     {
@@ -21,5 +22,6 @@ public class ModItems
         GameRegistry.registerItem(stargatePegasusChevron, "stargatePegasusChevron");
         GameRegistry.registerItem(stargateUniverseChevron, "stargateUniverseChevron");
         GameRegistry.registerItem(naquadahIngot, "naquadahIngot");
+        GameRegistry.registerItem(weaponZatNikTel, "weaponZatNikTel");
     }
 }

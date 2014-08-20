@@ -1,8 +1,21 @@
-item.minecraftstargate:mapleLeaf.name=Maple Leaf of Awesomeness
-tile.minecraftstargate:flag.name=Canadian Flag of Awesomeness
+# CREATIVE TAB NAME
 itemGroup.minecraftstargate=Minecraft Stargate
-tile.minecraftstargate:naquadahOre.name=Naquadah Ore
+
+# ITEMS
+item.minecraftstargate:mapleLeaf.name=Maple Leaf of Awesomeness
 item.minecraftstargate:naquadahIngot.name=Naquadah Ingot
 item.minecraftstargate:stargateMilkyWayChevron.name=Milkway Chevron
 item.minecraftstargate:stargatePegasusChevron.name=Pegasus Chevron
 item.minecraftstargate:stargateUniverseChevron.name=Universe Chevron
+
+# WEAPONS
+item.minecraftstargate:weaponZatNikTel.name=Zat'Nik'Tel
+
+# BLOCKS
+tile.minecraftstargate:flag.name=Canadian Flag of Awesomeness
+tile.minecraftstargate:naquadahOre.name=Naquadah Ore
+
+# KEYS
+keys.minecraftstargate.category=Minecraft Stargate
+keys.minecraftstargate.charge=Charge
+keys.minecraftstargate.release=Release
